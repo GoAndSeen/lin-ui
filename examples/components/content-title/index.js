@@ -30,7 +30,8 @@ Component({
     onDoc() {
       wx.navigateToMiniProgram({
         appId: 'wxb05fa7b69aa7e5b7',
-        path: '/pages/md/index?title=' + this.properties.name + '&desc=' + this.properties.describe
+        path: '/pages/md/index?title=' + this.properties.name + '&desc=' + this.properties.describe,
+        envVersion: 'trial',
       })
     }
   }

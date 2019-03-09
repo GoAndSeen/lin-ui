@@ -40,8 +40,8 @@ Page({
       tab: '客厅',
       key: 'dining',
       image: {
-        activeImage: '/pages/nav/images/tab-icon/dining-active.png',
-        defaultImage: '/pages/nav/images/tab-icon/dining.png',
+        activeImage: '/pages/components/nav/images/tab-icon/dining-active.png',
+        defaultImage: '/pages/components/nav/images/tab-icon/dining.png',
         placement: 'top',
       }
     },
@@ -49,16 +49,16 @@ Page({
       tab: '卧室',
       key: 'badroom',
       image: {
-        activeImage: '/pages/nav/images/tab-icon/badroom-active.png',
-        defaultImage: '/pages/nav/images/tab-icon/badroom.png',
+        activeImage: '/pages/components/nav/images/tab-icon/badroom-active.png',
+        defaultImage: '/pages/components/nav/images/tab-icon/badroom.png',
         placement: 'top',
       }
     }, {
       tab: '厨房',
       key: 'kichten',
       image: {
-        activeImage: '/pages/nav/images/tab-icon/kichten-active.png',
-        defaultImage: '/pages/nav/images/tab-icon/kichten.png',
+        activeImage: '/pages/components/nav/images/tab-icon/kichten-active.png',
+        defaultImage: '/pages/components/nav/images/tab-icon/kichten.png',
         placement: 'top',
       }
     },
@@ -66,8 +66,8 @@ Page({
       tab: '浴室',
       key: 'bathroom',
       image: {
-        activeImage: '/pages/nav/images/tab-icon/bathroom-active.png',
-        defaultImage: '/pages/nav/images/tab-icon/bathroom.png',
+        activeImage: '/pages/components/nav/images/tab-icon/bathroom-active.png',
+        defaultImage: '/pages/components/nav/images/tab-icon/bathroom.png',
         placement: 'top',
         style: 'width:44rpx;height:44rpx;'
       }

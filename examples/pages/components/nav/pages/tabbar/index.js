@@ -15,14 +15,14 @@ Page({
       list: [
         {
           pagePath: "/index/index",
-          iconPath: '/pages/nav/images/tab-icon/home.png',
-          selectedIconPath: '/pages/nav/images/tab-icon/home_fill1.png',
+          iconPath: '/pages/components/nav/images/tab-icon/home.png',
+          selectedIconPath: '/pages/components/nav/images/tab-icon/home_fill1.png',
           text: "首页"
         }, {
           pagePath: "/index2/index",
-          iconPath: '/pages/nav/images/tab-icon/cart.png',
+          iconPath: '/pages/components/nav/images/tab-icon/cart.png',
           badge:'20',
-          selectedIconPath: '/pages/nav/images/tab-icon/cart_fill.png',
+          selectedIconPath: '/pages/components/nav/images/tab-icon/cart_fill.png',
           text: "购物车"
         },
         // {
@@ -33,8 +33,8 @@ Page({
         // },
         {
           pagePath: "/index2/index",
-          iconPath: '/pages/nav/images/tab-icon/my.png',
-          selectedIconPath: '/pages/nav/images/tab-icon/my_fill1.png',
+          iconPath: '/pages/components/nav/images/tab-icon/my.png',
+          selectedIconPath: '/pages/components/nav/images/tab-icon/my_fill1.png',
           text: "我的"
         },
       ]
@@ -51,29 +51,29 @@ Page({
       list: [
         {
           pagePath: "/index/index",
-          iconPath: '/pages/nav/images/tab-icon/home.png',
+          iconPath: '/pages/components/nav/images/tab-icon/home.png',
           iconSize: 50,
-          selectedIconPath: '/pages/nav/images/tab-icon/home_fill1.png',
+          selectedIconPath: '/pages/components/nav/images/tab-icon/home_fill1.png',
           text: "首页"
         }, {
           pagePath: "/index2/index",
           iconSize: 50,
 
-          iconPath: '/pages/nav/images/tab-icon/cart.png',
-          selectedIconPath: '/pages/nav/images/tab-icon/cart_fill.png',
+          iconPath: '/pages/components/nav/images/tab-icon/cart.png',
+          selectedIconPath: '/pages/components/nav/images/tab-icon/cart_fill.png',
           text: "购物车"
         }, {
           iconSize: 50,
           pagePath: "/index2/index",
-          iconPath: '/pages/nav/images/tab-icon/discover.png',
+          iconPath: '/pages/nav/components/images/tab-icon/discover.png',
           redDot: true,
-          selectedIconPath: '/pages/nav/images/tab-icon/discover_fill.png',
+          selectedIconPath: '/pages/components/nav/images/tab-icon/discover_fill.png',
           text: "发现"
         }, {
           iconSize: 50,
           pagePath: "/index2/index",
-          iconPath: '/pages/nav/images/tab-icon/my.png',
-          selectedIconPath: '/pages/nav/images/tab-icon/my_fill1.png',
+          iconPath: '/pages/components/nav/images/tab-icon/my.png',
+          selectedIconPath: '/pages/components/nav/images/tab-icon/my_fill1.png',
           text: "我的"
         },
       ]

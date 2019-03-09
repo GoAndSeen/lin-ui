@@ -1,5 +1,9 @@
 /* pages/view/pages/loadmore/case/index.wxss */
 
+page{
+  background: #fff
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -12,6 +16,7 @@
   padding: 20rpx 20rpx;
   box-sizing: border-box;
   border-bottom: 2rpx solid #f3f3f3;
+  background-color: #fff;
   display: flex;
   flex-direction: row;
   align-items: center;
